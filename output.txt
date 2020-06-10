@@ -1,0 +1,70 @@
+a random output:
+
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 32, 100)           15800     
+_________________________________________________________________
+bidirectional_1 (Bidirection (None, 200)               160800    
+_________________________________________________________________
+dense_1 (Dense)              (None, 11)                2211      
+=================================================================
+Total params: 178,811
+Trainable params: 178,811
+Non-trainable params: 0
+
+Epoch 1/3
+15676/15676 [==============================] - 20s 1ms/step - loss: 0.5847 - accuracy: 0.8017 
+Epoch 2/3
+15676/15676 [==============================] - 19s 1ms/step - loss: 0.3509 - accuracy: 0.8909
+Epoch 3/3
+15676/15676 [==============================] - 19s 1ms/step - loss: 0.2725 - accuracy: 0.9131
+3919/3919 [==============================] - 2s 411us/step
+Test set
+  Loss: 0.234
+  Accuracy: 0.930
+  
+SAMPLE:
+token:  fertigim  truth:  DE TR  hyps: TR
+token:  annemde  truth:  TR  hyps: TR
+token:  Jan'daki  truth:  DE TR  hyps: DE TR
+token:  Termin'e  truth:  DE TR  hyps: DE TR
+token:  Termine  truth:  DE TR  hyps: DE
+token:  Termini  truth:  DE TR  hyps: TR
+token:  Lektiondan  truth:  DE TR  hyps: DE TR
+token:  tee  truth:  DE  hyps: TR
+token:  Tee  truth:  DE  hyps: TR
+token:  Tee'mi  truth:  DE TR  hyps: NE.TR
+token:  Tasse  truth:  DE  hyps: DE
+token:  tasse  truth:  DE  hyps: TR
+token:  Geld  truth:  DE  hyps: DE
+token:  geld  truth:  DE  hyps: DE
+token:  buchlar  truth:  DE TR  hyps: DE
+token:  Buchlar  truth:  DE TR  hyps: DE
+token:  schreiblıyorum  truth:  DE TR  hyps: DE TR
+token:  gehliyorum  truth:  DE TR  hyps: TR
+token:  arbeitladım  truth:  DE TR  hyps: TR
+token:  Bahnhof'a  truth:  DE TR  hyps: DE TR
+token:  Bahnhofa  truth:  DE TR  hyps: DE TR
+token:  bahnhof'a  truth:  DE TR  hyps: DE TR
+token:  bahnhofa  truth:  DE TR  hyps: DE
+token:  çay  truth:  TR  hyps: TR
+token:  kalem  truth:  TR  hyps: TR
+token:  tiyatro  truth:  TR  hyps: TR
+token:  Weg  truth:  DE  hyps: DE
+token:  Haar  truth:  DE  hyps: TR
+token:  Hand  truth:  DE  hyps: DE
+token:  Kopfhörer  truth:  DE  hyps: DE
+token:  bilgisayar  truth:  TR  hyps: TR
+token:  parmak  truth:  TR  hyps: TR
+token:  gidiyorum  truth:  TR  hyps: TR
+token:  mı  truth:  TR  hyps: TR
+token:  öğüt  truth:  TR  hyps: TR
+token:  çat  truth:  TR  hyps: TR
+token:  üni  truth:  TR  hyps: TR
+token:  .  truth:  OTHER  hyps: OTHER
+token:  :)  truth:  OTHER  hyps: OTHER
+token:  !  truth:  OTHER  hyps: OTHER
+0.675
+67.5
