@@ -1,0 +1,40 @@
+fertigim	fertig im	DE TR
+annemde	annemde	TR
+Jan'daki	Jan 'daki	DE TR
+Termin'e	Termin 'e	DE TR
+Termine	Termin e	DE TR
+Termini	Termin i	DE TR
+Lektiondan	Lektion dan	DE TR
+tee	tee	DE
+Tee	Tee	DE
+Tee'mi	Tee 'mi	DE TR
+Tasse	Tasse	DE
+tasse	tasse	DE
+Geld	Geld	DE
+geld	geld	DE
+buchlar	buch lar	DE TR
+Buchlar	Buch lar	DE TR
+schreiblıyorum	schreib lıyorum	DE TR
+gehliyorum	geh liyorum	DE TR
+arbeitladım	arbeit ladım	DE TR
+Bahnhof'a	Bahnhof 'a	DE TR
+Bahnhofa	Bahnhof a	DE TR
+bahnhof'a	bahnhof 'a	DE TR
+bahnhofa	bahnhof a	DE TR
+çay	çay	TR
+kalem	kalem	TR
+tiyatro	tiyatro	TR
+Weg	weg	DE
+Haar	haar	DE
+Hand	hand	DE
+Kopfhörer	Kopfhörer	DE
+bilgisayar	bilgisayar	TR
+parmak	parmak	TR
+gidiyorum	gidiyorum	TR
+mı	mı	TR
+öğüt	öğüt	TR
+çat	çat	TR
+üni	üni	TR
+.	.	OTHER
+:)	:)	OTHER
+!	!	OTHER
